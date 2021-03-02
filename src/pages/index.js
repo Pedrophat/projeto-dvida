@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import Banner from '../components/Banner'
 import Header from '../components/Header'
 
 
@@ -10,9 +10,7 @@ export default function Home() {
   return (
     <div>
       <Header/>
-      <Teste>
-        aoba
-      </Teste>
+      <Banner/>
     </div>
   )
 }
