@@ -1,5 +1,6 @@
 import { InnerWrapper, Wrapper, Logo } from './styles'
 import  HeaderLink  from '../common/HeaderLink'
+import Menu from '../HeaderMenu'
 
 export default function Header(){
   return (
@@ -14,11 +15,10 @@ export default function Header(){
             <HeaderLink TextoDoLink='Home'/>
             <HeaderLink TextoDoLink='Sobre'/>
             <HeaderLink TextoDoLink='Contato'/>
-            <HeaderLink TextoDoLink='Teste1'/>
-            <HeaderLink TextoDoLink='Teste2'/>
-
+            <HeaderLink TextoDoLink='portifolio'/>
+            <HeaderLink TextoDoLink='cadastrar'/>
+            <Menu />
           </div>
-        
       </InnerWrapper>
     </Wrapper>
   )
